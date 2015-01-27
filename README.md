@@ -8,6 +8,9 @@ The master branch is only available on Github. Each commit that gets pushed trig
 
 If we create a branch off this one then commits to that branch will also trigger Codeship to make commits to master.
 
+## Setup
+First install node.js. Then, in the terminal, run `npm install` in this file's directory to download all the dependencies.
+
 ## Testing
 Run `gulp watch` and any changes changes sync up with `localhost:3000` immediately
 
